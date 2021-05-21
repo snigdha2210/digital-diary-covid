@@ -1,0 +1,112 @@
+.transition-fade {
+  opacity: 1;
+  transition: 500ms;
+  transform: translateX(0);
+  transform-origin: left;
+}
+
+html.is-animating .transition-fade {
+  opacity: 1;
+  transform: translateX(100%);
+}
+
+html.is-leaving .transition-fade {
+  opacity: 0;
+  transform: translateX(0);
+}
+
+.transition-swipe {
+  transition: 500ms;
+  transform: translateY(0);
+}
+
+html.is-animating .transition-swipe {
+  transform: translateY(100px);
+}
+
+body {
+  font: 400 15px Lato, sans-serif;
+  margin: 0;
+}
+.first-page h1 {
+  font-size: 10rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.first-page p {
+  font-size: 3rem;
+  line-height: 1.375em;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.first-page h1,
+.first-page p {
+  color: white;
+  border-radius: 20px;
+}
+.first-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: auto;
+  padding-bottom: auto;
+  height: 100vh;
+  background-image: url("assets/diary-removebg-preview.png");
+  background-color: #ba6430;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-position: center;
+}
+.first-page img {
+  height: 100px;
+}
+.diary {
+  height: 100vh;
+  /*background-image: url("assets/49.-Soft-Peach_1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-position: center;*/
+}
+.diary h1 {
+  text-align: center;
+}
+.diary a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.diary i {
+  margin-right: 10px;
+}
+.diary li {
+  font-size: 1.5rem;
+}
+.fa-phone-volume {
+  color: green;
+}
+.fa-arrow-circle-right {
+  color: red;
+  position: fixed;
+  bottom: 30px;
+  right: 10px;
+}
+.fa-arrow-circle-left {
+  color: red;
+  position: fixed;
+  bottom: 30px;
+  left: 10px;
+}
+.fa-home {
+  color: rgb(0, 153, 255);
+  position: fixed;
+  bottom: 30px;
+  left: 45%;
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 480px) {
+  .logo {
+    font-size: 150px;
+  }
+}
