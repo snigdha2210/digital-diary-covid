@@ -70,14 +70,16 @@ body {
 }
 .diary h1 {
   text-align: center;
+  margin-top: 30px;
 }
 .diary a {
   text-decoration: none;
   color: black;
-  font-weight: 600;
+  font-weight: 400;
 }
 .diary i {
   margin-right: 10px;
+  margin-bottom: 10px;
 }
 .diary li {
   font-size: 2.5rem;
