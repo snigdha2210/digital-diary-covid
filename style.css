@@ -70,7 +70,11 @@ body {
 }
 .diary h1 {
   text-align: center;
-  margin-top: 30px;
+  padding-top: 40px;
+  margin-top: 0px;
+  padding-bottom: 20px;
+  background-color: #fb6d4c;
+  color: black;
 }
 .diary a {
   text-decoration: none;
@@ -87,10 +91,16 @@ body {
 }
 marquee {
   padding-top: 40px;
-  padding-bottom: 60px;
+  padding-bottom: 80px;
   font-size: 3rem;
   background-color: #fb6d4c;
   color: black;
+}
+p.developedBy {
+  position: absolute;
+  bottom: 150px;
+  text-align: center;
+  margin-left: 22vw;
 }
 li.li1 {
   background-color: #ffd1a9;
@@ -151,6 +161,10 @@ li.li2 {
 }
 .fa-info-circle {
   color: #1da1f2;
+}
+.fa-video {
+  color: #000;
+  margin-top: 10px;
 }
 @media screen and (max-width: 768px) {
 }
