@@ -85,23 +85,36 @@ body {
   font-size: 2.5rem;
   margin: 5px;
 }
+marquee {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  font-size: 3rem;
+  background-color: #fb6d4c;
+  color: black;
+}
+li.li1 {
+  background-color: #ffd1a9;
+}
+li.li2 {
+  background-color: #ff9e79;
+}
 .fa-phone-volume {
   color: green;
 }
 .fa-arrow-circle-right {
-  color: red;
+  color: #c23b22;
   position: fixed;
   bottom: 30px;
   right: 10px;
 }
 .fa-arrow-circle-left {
-  color: red;
+  color: #c23b22;
   position: fixed;
   bottom: 30px;
   left: 10px;
 }
 .fa-home {
-  color: rgb(0, 153, 255);
+  color: #c23b22;
   position: fixed;
   bottom: 30px;
   left: 43%;
