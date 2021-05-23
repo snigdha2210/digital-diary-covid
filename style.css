@@ -52,7 +52,7 @@ body {
   padding-top: auto;
   padding-bottom: auto;
   height: 100vh;
-  background-image: url("assets/diary-removebg-preview.png");
+  background-image: url('assets/diary-removebg-preview.png');
   background-color: #ba6430;
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
@@ -80,7 +80,8 @@ body {
   margin-right: 10px;
 }
 .diary li {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+  margin: 5px;
 }
 .fa-phone-volume {
   color: green;
@@ -101,7 +102,40 @@ body {
   color: rgb(0, 153, 255);
   position: fixed;
   bottom: 30px;
-  left: 45%;
+  left: 43%;
+}
+.fa-newspaper {
+  color: rgb(0, 153, 255);
+}
+.fa-briefcase-medical {
+  color: red;
+}
+.fa-twitter {
+  color: #1da1f2;
+}
+.fa-store-alt-slash {
+  color: red;
+}
+.fa-clock {
+  color: grey;
+}
+.fa-gavel {
+  color: brown;
+}
+.fa-envelope-open-text {
+  color: rgb(67, 119, 202);
+}
+.fa-fighter-jet {
+  color: darkgray;
+}
+.fa-check-circle {
+  color: green;
+}
+.fa-syringe {
+  color: #e7b835;
+}
+.fa-info-circle {
+  color: #1da1f2;
 }
 @media screen and (max-width: 768px) {
 }
